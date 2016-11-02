@@ -25,7 +25,7 @@ public:
 /*----------------------------------------------------------------------*/
 
 /*------------------------function prototypes--------------------------*/
-void input_grammar(char* cfg_path);
+void inputcfg(char* cfg_path);
 void build_parsing_table(char* ppt_path);
 void add_action(char* input);
 void add_goto(char* input);

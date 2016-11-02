@@ -17,8 +17,7 @@ char* ppt_path="ppt.txt";
 
 /*----------------------------------------------------------------------*/
 int main() {
-    input_grammar(cfg_path);
-    build_parsing_table(ppt_path);
+    inputcfg(cfg_path);
     cout<<"Input expression:"<<endl;
     string input;
     cin>>input;
