@@ -2,7 +2,7 @@
 1:action:+,s6;$,r0
 2:action:+,r2;*,s7;),r2;$,r2
 3:action:+,r4;*,r4;),r4;$,r4
-4:action:1,s5;(,s4:goto:E,8;T,2;F,3
+4:action:i,s5;(,s4:goto:E,8;T,2;F,3
 5:action:+,r6;*,r6;),r6;$,r6
 6:action:i,s5;(,s4:goto:T,9;F,3
 7:action:i,s5;(,s4:goto:F,10

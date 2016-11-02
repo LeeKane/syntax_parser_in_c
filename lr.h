@@ -12,6 +12,8 @@ void setAction(int stateNo,char*temp);
 void setGoto(int stateNo,char*temp);
 void init();
 void startParser();
+void dealR(int currentProductionNo);
+void printResult();
 string print_operator_stack();
 string print_state_stack();
 
